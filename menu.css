@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yuji+Mai&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  /* background-image: url(blackwall.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(255, 255, 197);
+}
+main {
+  width: 80vw;
+  position: relative;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+.card {
+  width: 250px;
+  height: 330px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  /* background: transparent;
+  backdrop-filter: blur(10px); */
+  margin: 20px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  margin: 40px 20px 10px 20px;
+}
+.card h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(255, 119, 0);
+  font-family: "Yuji Mai", serif;
+}
+.card a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+aside {
+  height: 100vh;
+  width: 20vw;
+  background-color: rgb(255, 119, 0);
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  max-height: 100vh;
+}
+main h1 {
+  color: rgb(255, 119, 0);
+  margin: 10px;
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Agu Display", serif;
+}
+.side .slide {
+  min-height: 50vh;
+  width: 90%;
+  background-color: antiquewhite;
+  margin: auto;
+}
+
+.side .image {
+  height: 30vh;
+}
+.side h2 {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Agu Display", serif;
+  text-align: center;
+}
+main .navbar {
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  height: 50px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar li {
+  list-style-type: none;
+  margin: 10px;
+}
+.cards :hover {
+  background-color: black;
+}
+.searchbar input {
+  width: 600px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+
+.searchbar {
+  position: relative;
+}
+.searchicon {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+}
+.searchbar i {
+  color: black;
+}
